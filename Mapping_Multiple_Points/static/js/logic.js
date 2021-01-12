@@ -1,9 +1,9 @@
 
 
-// Create the map object with a center and zoom level.
-let map = L.map('mapid').setView([34.0522, -118.2437], 5);
+// Create the map object with center at the San Francisco airport.
+let map = L.map('mapid').setView([37.6213, -122.3790], 5);
 
-//  Add a marker to the map for Los Angeles, California.
+//  //Add a marker to the map for Los Angeles, California.
 // L.circleMarker([34.0522, -118.2437], {
 //     radius: 300,
 //     color: 'black',
